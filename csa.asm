@@ -114,7 +114,7 @@ RL_MENU:
 	INT 10H
 
 	MOV AH,09H
-	LEA DX,W_MSG ;DO you have a acount?
+	LEA DX,W_MSG 
 	INT 21H
 
 	MOV AH,09H
