@@ -23,7 +23,7 @@
 	STRLUSER LABEL BYTE   ;user123
     MAXN1 DB 30   ;Max length
     ACTN1 DB ? ; real length 
-    INPUTLUSER DB 30 DUP("$")  ;user123$$$$$$$$$$$$$$$$$$$$$$$$$$
+    INPUTLUSER DB 30 DUP("$")  ;user123$$$$$$$$$$$$$$$$$$$$$$$$$
 	STRLPASS LABEL BYTE
     MAXN2 DB 30
 	ACTN2 DB ?
